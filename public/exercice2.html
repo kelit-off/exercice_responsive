@@ -4,97 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice 2: Meteo</title>
-
     <link rel="stylesheet" href="../asset/css/exercice2.css">
 </head>
 <body>
+    <header>
+        <section>
+            <h1>Metz</h1>
+            <p>Moselle</p>
+            <p>France</p>
+        </section>
+        <section>
+            <p>Master Sikara</p>
+            <p>Temperature: 11°</p>
+            <p>Pollen: 36</p>
+        </section>
+    </header>
+    
     <main>
-        <!-- Section top avec information général -->
-        <section>
-            <div>
-                <h1>New York, NY</h1>
-                <span>Tuesday, April 15th</span>
-                <span>Overcast</span>
-                <div>
-                    <!-- Meteo actuel -->
-                    <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                    <h2>58°F</h2>
-                </div>
-            </div>
-            <div>
-                <!-- Information plus détailler meteo actuel -->
-                <p>Precipitation: <strong>100%</strong></p>
-                <p>Humidity: <strong>97%</strong></p>
-                <p>Wind: <strong>4 mph SW</strong></p>
-                <p>Pollen Count: <strong>36</strong></p>
-            </div>
-        </section>
-        <!-- Section liste de jour avec les meteo -->
-        <section>
-            <div class="jour">
-                <h3>Today</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Wednesday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Thursday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Friday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Saturday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Sunday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-            <div class="jour">
-                <h3>Monday</h3>
-                <img src="../asset/svg/clouds.svg" alt="Image de nuage">
-                <div>
-                    <strong>68°</strong>
-                    36°
-                </div>
-                <span>Pollen: <strong>36</strong></span>
-            </div>
-        </section>
+
+        <article id="liste-meteo">
+            <section>
+                <p><strong>Today</strong></p>
+                <i class="fa-solid fa-cloud-rain"></i>
+                <p>Min: 20°</p>
+                <p>Max: 25°</p>
+            </section>
+
+            <section>
+                <p><strong>Tomorrow</strong></p>
+                <i class="fa-solid fa-sun"></i>
+                <p>Min: 22°</p>
+                <p>Max: 28°</p>
+            </section>
+
+            <section>
+                <p><strong>Saturday</strong></p>
+                <i class="fa-solid fa-snowflake"></i>
+                <p>Min: 15°</p>
+                <p>Max: 20°</p>
+            </section>
+
+            <section>
+                <p><strong>Sunday</strong></p>
+                <i class="fa-solid fa-cloud-sun"></i>
+                <p>Min: 18°</p>
+                <p>Max: 23°</p>
+            </section>
+
+            <section>
+                <p><strong>Monday</strong></p>
+                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                <p>Min: 19°</p>
+                <p>Max: 24°</p>
+            </section>
+
+            <section>
+                <p><strong>Tuesday</strong></p>
+                <i class="fa-solid fa-bolt"></i>
+                <p>Min: 21°</p>
+                <p>Max: 27°</p>
+            </section>
+
+            <section>
+                <p><strong>Wednesday</strong></p>
+                <i class="fa-solid fa-sun"></i>
+                <p>Min: 23°</p>
+                <p>Max: 30°</p>
+            </section>
+        </article>
     </main>
+    
 </body>
 </html>
